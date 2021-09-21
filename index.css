@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+.logo{
+    display: inline-block;
+    margin-top: 5px;
+}
+.logo img{
+    width: 100px;
+}
+.links{
+    display: inline-block;
+    float: right;
+    margin: 35px 10px;
+}
+.links a{
+    font-size: 1.7rem;
+    background: -webkit-linear-gradient(rgb(211, 1, 253),rgb(0, 208, 245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 20px;
+}
+.home{
+    background-image: url(../Images/Home1\ \(2\).jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 10px;
+}
+#main{
+    text-align: center;
+}
